@@ -65,7 +65,7 @@ def take_command():
         pass
     return command
 
-def run_cindy():
+def run_AJ():
     command = take_command()
     print(command)
     if 'play' in command:
@@ -90,4 +90,4 @@ def run_cindy():
         talk('please say the command again')
 
 while True:
-    run_cindy()
+    run_AJ()
